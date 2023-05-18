@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    min-height: 100vh;
+    background-color: #001622;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #013e5f5b; /* Cor de fundo com transparência */
+    backdrop-filter: blur(80px); /* Aplica um desfoque ao fundo */
+    box-shadow: 4px 5px 4px #010d13;
+}
+.logo{
+    width: 50px;
+}
+
+.titleCabecalho{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.itens{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+
+.fa-solid.fa-magnifying-glass:hover{
+    color: #001622;
+}
